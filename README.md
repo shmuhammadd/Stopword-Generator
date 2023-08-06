@@ -54,5 +54,3 @@ This script calculates the most frequent words (stopwords) from multiple files a
 - Words are tokenized based on alphanumeric sequences, so punctuation is ignored.
 
 ---
-
-You can now copy and paste this content into your GitHub README. Remember to replace `[repository-url]` and `[repository-directory]` with your actual repository details.
