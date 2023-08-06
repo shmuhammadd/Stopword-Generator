@@ -35,6 +35,8 @@ for lst in stopwords[1:]:
   overlapping_stopwords.intersection_update(lst)
 
 # save stopwords
+if not os.path.isdir('data'):
+  os.mkdir('data')
 with open('data/generated_stopwords.txt', 'w') as f:
   f.write('\n'.join(overlapping_stopwords))
 
