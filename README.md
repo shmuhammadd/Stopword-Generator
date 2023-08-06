@@ -2,7 +2,12 @@
 
 # Stopword Generator
 
-This script calculates the most frequent words (stopwords) from multiple files and saves the overlapping stopwords among these files. This is useful in cases where you want to find common stopwords across various datasets.
+Creating stopwords from a single dataset can often be misleading, as it may cause domain-specific words to appear more frequently than they would in general language use. For instance, if you solely rely on the Bible for generating stopwords, words like "God" might appear frequently, even though they aren't considered generic stopwords in everyday language.
+
+Recognizing this challenge, our script is designed to work with multiple datasets from varied domains, such as religion, news, literature, and more. It first identifies the stopwords specific to each domain and then pinpoints the overlapping words among them. By leveraging datasets from diverse domains, our approach ensures a robust and comprehensive set of stopwords, less biased by domain-specific terms.
+
+In essence, this method offers a more holistic view of language, capturing the stopwords that are truly representative of the language without being overly influenced by the specificities of any single domain.
+
 
 ## Requirements:
 
